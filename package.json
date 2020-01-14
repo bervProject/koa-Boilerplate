@@ -16,7 +16,7 @@
     "@babel/core": "^7.8.3",
     "@babel/plugin-transform-async-to-generator": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
-    "@babel/register": "^7.8.0"
+    "@babel/register": "^7.8.3"
   },
   "scripts": {
     "start": "node src/index.js"
