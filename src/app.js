@@ -31,6 +31,8 @@ staticFile.use(serve('web'));
 app.use(mount('/', staticFile));
 app.use(mount('/api', api));
 
-app.listen(port, () => {
+const server = app.listen(port, () => {
   console.log(`Starting server at http://localhost:${port}`);
 });
+
+module.exports = server;
