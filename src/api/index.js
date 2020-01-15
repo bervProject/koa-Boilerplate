@@ -6,6 +6,7 @@ const logger = require("koa-log4").getLogger("api");
 api.use(async ctx => {
   const requestId = rTracer.id();
   logger.debug(`requestId: ${requestId}`);
+  logger.debug(`From browser: ${ctx.userAgent.browser}`);
   const response = {
     data: {
       response: "Hello World"
