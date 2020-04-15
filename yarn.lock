@@ -1642,10 +1642,10 @@ cls-hooked@^4.2.2:
     emitter-listener "^1.0.1"
     semver "^5.4.1"
 
-cls-rtracer@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/cls-rtracer/-/cls-rtracer-1.4.0.tgz#5394605bb3771ca0d4736f2fe05362040d7b9bdb"
-  integrity sha512-rlUARsMV9VZyDO+4sPCj62ATAJieKjZaUPyvxsP+xQT+XY/+c3m/BpH+3pbTdxC1D0eZUi8DCKUhnaicHQeG+g==
+cls-rtracer@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/cls-rtracer/-/cls-rtracer-1.4.1.tgz#864f561af962c2e36120f8025f5521364245b68e"
+  integrity sha512-bZFivomFiy+x7z4wAbadO3icOE9F9ZnJcJY/ULTZRvTiKr/1O8SbsZ9PvcFwkzVsIHBqQy5IeXnJYcohldTINA==
   dependencies:
     uuid "3.3.3"
 

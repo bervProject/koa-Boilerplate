@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "cls-hooked": "^4.2.2",
-    "cls-rtracer": "^1.4.0",
+    "cls-rtracer": "^1.4.1",
     "koa": "^2.11.0",
     "koa-helmet": "^5.2.0",
     "koa-log4": "^2.3.2",
