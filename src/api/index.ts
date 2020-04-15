@@ -1,7 +1,8 @@
-const Koa = require("koa");
+import Koa from 'koa';
+import rTracer from 'cls-rtracer';
+import loggers from 'koa-log4';
 const api = new Koa();
-const rTracer = require("cls-rtracer");
-const logger = require("koa-log4").getLogger("api");
+const logger = loggers.getLogger("api");
 // response
 api.use(async ctx => {
   const requestId = rTracer.id();
@@ -18,4 +19,4 @@ api.use(async ctx => {
   logger.info(`Give response ${JSON.stringify(response)}`);
 });
 
-module.exports = api;
+export default api;
