@@ -28,7 +28,7 @@
     "@types/koa-response-time": "^2.1.0",
     "@types/koa-static": "^4.0.1",
     "jest": "^25.5.4",
-    "nodemon": "^2.0.3",
+    "nodemon": "^2.0.4",
     "supertest": "^4.0.2",
     "ts-jest": "^25.5.1",
     "ts-node": "^8.10.1",
