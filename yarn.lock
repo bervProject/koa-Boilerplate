@@ -634,10 +634,10 @@
     "@types/helmet" "*"
     "@types/koa" "*"
 
-"@types/koa-log4@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.npmjs.org/@types/koa-log4/-/koa-log4-2.3.1.tgz#6e02add4705a8b42aa0b590bc012e3ba356afd06"
-  integrity sha512-Yq2eTCDtJBIn/42qOfiFbcQSkUHjIGc1AJaV4Be5Doe96MXZ7O644uXKPwvbWEW2SEci53vHg/0ICihiuvbBHQ==
+"@types/koa-log4@^2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@types/koa-log4/-/koa-log4-2.3.2.tgz#e590ff95dbc9e212c75f5f353b49692cf829223d"
+  integrity sha512-M6WfabNVjNfZd9d8/yoPlIMcDk6/qqPwwDAbNITLhL53HADt63dsyJaP48v+3SheRm2XDJgQ6lpsvF3/GiI7mQ==
   dependencies:
     "@types/koa" "*"
     log4js "^3.0.0"
