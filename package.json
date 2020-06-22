@@ -8,7 +8,7 @@
   "dependencies": {
     "cls-hooked": "^4.2.2",
     "cls-rtracer": "^2.2.0",
-    "koa": "^2.12.1",
+    "koa": "^2.13.0",
     "koa-helmet": "^5.2.0",
     "koa-log4": "^2.3.2",
     "koa-logger": "^3.2.1",
