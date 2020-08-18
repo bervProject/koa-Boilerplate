@@ -20,7 +20,7 @@
   "devDependencies": {
     "@types/express-useragent": "^1.0.0",
     "@types/jest": "^26.0.10",
-    "@types/koa": "^2.11.3",
+    "@types/koa": "^2.11.4",
     "@types/koa-helmet": "^5.2.0",
     "@types/koa-log4": "^2.3.2",
     "@types/koa-logger": "^3.1.1",
