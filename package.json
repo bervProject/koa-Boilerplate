@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@types/express-useragent": "^1.0.0",
-    "@types/jest": "^26.0.10",
+    "@types/jest": "^26.0.12",
     "@types/koa": "^2.11.4",
     "@types/koa-helmet": "^5.2.0",
     "@types/koa-log4": "^2.3.2",
