@@ -45,7 +45,7 @@
     "build": "tsc",
     "start": "node .",
     "dev": "nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node ./src/index.ts",
-    "test": "jest"
+    "test": "jest --maxWorkers=1"
   },
   "jest": {
     "testEnvironment": "node",

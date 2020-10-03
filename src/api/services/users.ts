@@ -15,9 +15,7 @@ api.use(async ctx => {
   // const User = db.models["User"];
   const users = await User.findAll();
   const response = {
-    data: {
-      response: users
-    },
+    data:  users,
     status: 200,
     message: "Success"
   };
