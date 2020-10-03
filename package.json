@@ -34,6 +34,7 @@
     "@types/validator": "^13.1.0",
     "jest": "^25.5.4",
     "nodemon": "^2.0.4",
+    "prettier": "^2.1.2",
     "sequelize-cli": "^6.2.0",
     "sqlite3": "^5.0.0",
     "supertest": "^5.0.0",
@@ -43,6 +44,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "fix-lint": "prettier --write .",
     "start": "node .",
     "dev": "nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node ./src/index.ts",
     "test": "jest --maxWorkers=1"
