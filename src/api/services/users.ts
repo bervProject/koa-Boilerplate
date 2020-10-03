@@ -3,18 +3,18 @@ import rTracer from "cls-rtracer";
 import loggers from "koa-log4";
 import createModel from "../../models/user";
 import db from "../../models";
-const api = new Koa();
+const users = new Koa();
 const logger = loggers.getLogger("users");
 
 // response
-api.use(async (ctx) => {
+users.use(async (ctx) => {
   const requestId = rTracer.id();
   logger.debug(`requestId: ${requestId}`);
   const User = createModel(db.sequelize);
   // const User = db.models["User"];
-  const users = await User.findAll();
+  const usersData = await User.findAll();
   const response = {
-    data: users,
+    data: usersData,
     status: 200,
     message: "Success",
   };
@@ -22,4 +22,4 @@ api.use(async (ctx) => {
   logger.info(`Give response ${JSON.stringify(response)}`);
 });
 
-export default api;
+export default users;
