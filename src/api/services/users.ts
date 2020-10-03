@@ -22,11 +22,4 @@ api.use(async (ctx) => {
   logger.info(`Give response ${JSON.stringify(response)}`);
 });
 
-api.use(async (ctx) => {
-  logger.info(JSON.stringify(ctx.URL));
-  if (ctx.URL.pathname === "/api/error") {
-    throw new Error("Give an error");
-  }
-});
-
 export default api;

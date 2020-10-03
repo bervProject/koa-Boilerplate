@@ -28,16 +28,7 @@ app.on("error", (err, ctx) => {
 
 const server = app.listen(port, () => {
   log.info(`Starting server at http://localhost:${port}`);
-  db.sequelize
-    .sync({
-      alter: true,
-    })
-    .then((result: any) => {
-      console.log(JSON.stringify(result));
-    })
-    .catch((err: any) => {
-      console.log(JSON.stringify(err));
-    });
+  db.sequelize.sync();
 });
 
 export default server;

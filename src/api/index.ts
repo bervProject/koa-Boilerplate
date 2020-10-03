@@ -13,10 +13,7 @@ api.use(async (ctx) => {
   const requestId = rTracer.id();
   logger.debug(`requestId: ${requestId}`);
   logger.debug(`From browser: ${ctx.userAgent.browser}`);
-});
-
-api.use(async (ctx) => {
-  logger.info(JSON.stringify(ctx.URL));
+  logger.info(`URL: ${JSON.stringify(ctx.URL)}`);
   if (ctx.URL.pathname === "/api/error") {
     throw new Error("Give an error");
   }
