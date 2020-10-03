@@ -20,7 +20,7 @@ jobs:
     - name: yarn, yarn test
       run: |
         yarn
-        npx sequelize-cli db:migrate
+        NODE_ENV=test npx sequelize-cli db:migrate
         yarn test
       env:
         CI: true
