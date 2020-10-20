@@ -574,13 +574,6 @@
   dependencies:
     "@types/node" "*"
 
-"@types/helmet@*":
-  version "0.0.45"
-  resolved "https://registry.npmjs.org/@types/helmet/-/helmet-0.0.45.tgz#3eab6550a4e19acf86012596a7f1981529480fd5"
-  integrity sha512-PsLZI1NqKpXvsMZxh66xAZtpKiTeW+swY8a8LnCNSBbM/mvwU41P3BYoEqkJM9RbITPsq4uhIH0NkIsL9fzPbg==
-  dependencies:
-    "@types/express" "*"
-
 "@types/http-assert@*":
   version "1.5.1"
   resolved "https://registry.npmjs.org/@types/http-assert/-/http-assert-1.5.1.tgz#d775e93630c2469c2f980fc27e3143240335db3b"
@@ -631,13 +624,13 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-helmet@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@types/koa-helmet/-/koa-helmet-6.0.0.tgz#c4e27ce156f62a03561a207dc53d5372f80bfe68"
-  integrity sha512-uRweArZKDSnsTBFoM2fvDNMHwzSUX7ClJSbKmwzDiDu07+eIPOjoZCLPKgKGiurURwcSn9G0EZ7xlQrqj2z7PQ==
+"@types/koa-helmet@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@types/koa-helmet/-/koa-helmet-6.0.1.tgz#05751bf0fa760ca85a7c9fe02f8b0d00a01571a2"
+  integrity sha512-kPdPJFDfQbDqsp6/29yWnzoCz+Wo9MasY9AbaZnyS5AKqHFToviSQkzTl6SENbWem/yTwGER/gbc0Y+/ptvd+w==
   dependencies:
-    "@types/helmet" "*"
     "@types/koa" "*"
+    helmet "^4.0.0"
 
 "@types/koa-log4@^2.3.2":
   version "2.3.2"
@@ -2286,7 +2279,7 @@ has-yarn@^2.1.0:
   resolved "https://registry.yarnpkg.com/has-yarn/-/has-yarn-2.1.0.tgz#137e11354a7b5bf11aa5cb649cf0c6f3ff2b2e77"
   integrity sha512-UqBRqi4ju7T+TqGNdqAO0PaSVGsDGJUBQvk9eUWNGRY1CFGDzYhLWoM7JQEemnlvVcv/YEmc2wNW8BC24EnUsw==
 
-helmet@^4.1.1:
+helmet@^4.0.0, helmet@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/helmet/-/helmet-4.1.1.tgz#751f0e273d809ace9c172073e0003bed27d27a4a"
   integrity sha512-Avg4XxSBrehD94mkRwEljnO+6RZx7AGfk8Wa6K1nxaU+hbXlFOhlOIMgPfFqOYQB/dBCsTpootTGuiOG+CHiQA==
