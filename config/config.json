@@ -1,25 +1,23 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
+    "username": "postgres",
+    "password": "db_test_pass",
     "database": "database_development",
     "host": "127.0.0.1",
-    "storage": "db/dev.db",
-    "dialect": "sqlite"
+    "dialect": "postgres"
   },
   "test": {
-    "username": "root",
-    "password": null,
+    "username": "postgres",
+    "password": "db_test_pass",
     "database": "database_test",
     "host": "127.0.0.1",
-    "storage": "db/test.db",
-    "dialect": "sqlite"
+    "dialect": "postgres"
   },
   "production": {
-    "username": "root",
+    "username": "postgres",
     "password": null,
     "database": "database_production",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "postgres"
   }
 }
