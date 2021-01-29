@@ -12,7 +12,7 @@
     "password": "db_test_pass",
     "database": "database_test",
     "port": "5432",
-    "host": "postgres",
+    "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
