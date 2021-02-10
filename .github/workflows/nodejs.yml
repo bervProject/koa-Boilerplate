@@ -10,7 +10,7 @@ env:
   IMAGE_NAME: koa-boilerplate
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     services:
       # Label used to access the service container
       postgres:
@@ -32,9 +32,9 @@ jobs:
       matrix:
         node-version: [12.x, 14.x]
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
       - name: yarn, yarn test
@@ -45,24 +45,19 @@ jobs:
         env:
           CI: true
       - uses: codecov/codecov-action@v1
+        if: ${{ matrix.node-version == '14.x' }}
         name: Upload Coverage
-        if: ${{ matrix.node-version == '12.x' }}
   docker-test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
+    if: github.event_name == 'pull_request'
     needs: build
     steps:
       - uses: actions/checkout@v2
       - name: Run tests
-        run: |
-          if [ -f docker-compose.test.yml ]; then
-            docker-compose --file docker-compose.test.yml build
-            docker-compose --file docker-compose.test.yml run sut
-          else
-            docker build . --file Dockerfile
-          fi
+        run: docker build . --file Dockerfile
   docker-push:
-    needs: docker-test
-    runs-on: ubuntu-latest
+    needs: build
+    runs-on: ubuntu-20.04
     if: github.event_name == 'push'
     steps:
       - uses: actions/checkout@v2
