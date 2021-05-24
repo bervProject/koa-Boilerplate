@@ -12,4 +12,6 @@ COPY package.json yarn.lock ./
 RUN yarn --frozen-lockfile --production && yarn cache clean
 COPY config/ /app/config/
 COPY web/ /app/web/
+RUN adduser -D koa && chown -R koa /app
+USER koa
 CMD ["yarn", "start"]
