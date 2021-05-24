@@ -1,11 +1,15 @@
-FROM node:alpine as build
+FROM node:lts-alpine as build
 WORKDIR /app
-COPY package.json package.json
-RUN yarn
+COPY package.json yarn.lock tsconfig.json ./
+RUN yarn --frozen-lockfile
 COPY . .
 RUN yarn build
 
-FROM node:alpine as runner
+FROM node:lts-alpine as runner
 WORKDIR /app
-COPY --from=build /app /app
+COPY --from=build /app/dist /app/dist
+COPY package.json yarn.lock ./
+RUN yarn --frozen-lockfile --production && yarn cache clean
+COPY config/ /app/config/
+COPY web/ /app/web/
 CMD ["yarn", "start"]

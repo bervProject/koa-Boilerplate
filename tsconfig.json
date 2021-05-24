@@ -4,6 +4,7 @@
     "target": "es2017",
     "esModuleInterop": true,
     "noImplicitAny": true,
+    "skipDefaultLibCheck": true,
     "outDir": "./dist",
     "sourceMap": true
   },

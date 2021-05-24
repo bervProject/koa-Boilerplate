@@ -30,16 +30,17 @@ jobs:
           --health-retries 5
     strategy:
       matrix:
-        node-version: [12.x, 14.x]
+        node-version: [14.x. 16.x]
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-      - name: yarn, yarn test
+      - name: yarn, yarn build, yarn test
         run: |
-          yarn
+          yarn --frozen-lockfile
+          yarn build
           NODE_ENV=test npx sequelize-cli db:migrate
           yarn test
         env:
