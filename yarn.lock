@@ -715,10 +715,10 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-response-time@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.npmjs.org/@types/koa-response-time/-/koa-response-time-2.1.0.tgz#b92b8404d79daee24372ffb8977968cf657fe592"
-  integrity sha512-yUfASs1vAXq0sctRO1jc3el4iyKaW0jf+sMtlkbVkhtQN2DnmvyOG+nEWHMc8wmzFTl+qacHWIA+jjoojWClhQ==
+"@types/koa-response-time@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@types/koa-response-time/-/koa-response-time-2.1.1.tgz#58c985306ccf38fb210327fa3492ff674b4452d1"
+  integrity sha512-VtzmAF4P3ewOGN+RQW13o7wKzeU23LiVBer/eWP95MY6qw3FGOrLqtZvrFs/jtG7OBJr5baXqLWlNGHqs4xhFg==
   dependencies:
     "@types/koa" "*"
 
