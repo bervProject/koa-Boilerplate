@@ -24,7 +24,7 @@
     "@types/express-useragent": "^1.0.0",
     "@types/jest": "^26.0.23",
     "@types/koa": "^2.13.4",
-    "@types/koa-helmet": "^6.0.2",
+    "@types/koa-helmet": "^6.0.4",
     "@types/koa-log4": "^2.3.3",
     "@types/koa-logger": "^3.1.2",
     "@types/koa-mount": "^4.0.1",
