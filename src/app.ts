@@ -12,7 +12,7 @@ import db from "./models";
 const log = loggers.getLogger("app");
 
 const app = new Koa();
-const port = process.env.PORT || 3030;
+const port = process.env.NODE_ENV === "test" ? 0 : process.env.PORT || 3030;
 // tracer
 app.use(responseTime({ hrtime: true }));
 app.use(rTracer.koaMiddleware());

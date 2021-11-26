@@ -44,12 +44,9 @@
   "scripts": {
     "build": "tsc",
     "fix-lint": "prettier --write .",
+    "migrate": "sequelize db:migrate",
     "start": "node .",
     "dev": "nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node ./src/index.ts",
-    "test": "jest --maxWorkers=1"
-  },
-  "jest": {
-    "testEnvironment": "node",
-    "collectCoverage": true
+    "test": "jest"
   }
 }

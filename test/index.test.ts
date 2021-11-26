@@ -3,7 +3,7 @@
 import request from "supertest";
 import server from "../src/index";
 // close the server after all
-afterEach(() => {
+afterAll(() => {
   server.close();
 });
 

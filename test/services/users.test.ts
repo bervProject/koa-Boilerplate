@@ -2,8 +2,8 @@
 // require supertest
 import request from "supertest";
 import server from "../../src/index";
-// close the server after each test
-afterEach(() => {
+// close the server after all
+afterAll(() => {
   server.close();
 });
 
