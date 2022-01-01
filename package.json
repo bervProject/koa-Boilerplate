@@ -18,7 +18,7 @@
     "koa-useragent": "^4.0.0",
     "pg": "^8.7.1",
     "pg-hstore": "^2.3.4",
-    "sequelize": "^6.11.0"
+    "sequelize": "^6.12.4"
   },
   "devDependencies": {
     "@types/express-useragent": "^1.0.1",
