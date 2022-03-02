@@ -42,7 +42,7 @@ jobs:
           yarn --frozen-lockfile
           yarn build
           NODE_ENV=test npx sequelize-cli db:migrate
-          yarn test
+          yarn test --forceExit
         env:
           CI: true
       - uses: codecov/codecov-action@v2.1.0
