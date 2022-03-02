@@ -2,7 +2,6 @@ import logger from "koa-logger";
 import helmet from "koa-helmet";
 import mount from "koa-mount";
 import responseTime from "koa-response-time";
-import { userAgent } from "koa-useragent";
 import rTracer from "cls-rtracer";
 import Koa from "koa";
 import api from "./api/index";
@@ -18,7 +17,6 @@ app.use(responseTime({ hrtime: true }));
 app.use(rTracer.koaMiddleware());
 app.use(logger());
 app.use(helmet());
-app.use(userAgent);
 app.use(mount("/", staticFile));
 app.use(mount("/api", api));
 
