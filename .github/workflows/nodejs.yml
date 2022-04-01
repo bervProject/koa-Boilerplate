@@ -30,7 +30,7 @@ jobs:
           --health-retries 5
     strategy:
       matrix:
-        node-version: [14.x, 16.x]
+        node-version: [16.x, 17.x]
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
@@ -46,7 +46,7 @@ jobs:
         env:
           CI: true
       - uses: codecov/codecov-action@v2.1.0
-        if: ${{ matrix.node-version == '14.x' }}
+        if: ${{ matrix.node-version == '16.x' }}
         name: Upload Coverage
   docker-test:
     runs-on: ubuntu-20.04
