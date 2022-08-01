@@ -1207,12 +1207,12 @@ cls-hooked@^4.2.2:
     emitter-listener "^1.0.1"
     semver "^5.4.1"
 
-cls-rtracer@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.npmjs.org/cls-rtracer/-/cls-rtracer-2.6.0.tgz#2d1965d8be80311bf9ba4782a7f53b921b267ab3"
-  integrity sha512-AkerGNOczlS5mj7giIGi0KvqwLy2sckUF7RQe5r0dV4Z/SWUclUwVEhIOJQ3rOcTOBqlBVAtmGbSWirkW1GK4w==
+cls-rtracer@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/cls-rtracer/-/cls-rtracer-2.6.2.tgz#249e53051a2356af8d80fd649d22ab7a8eafc339"
+  integrity sha512-9TYlTXQkjaytD2oe+WCEAXArgqlrHzvVW5WnwpUgenuY8D3rMfJVgsCogY77YHM9R3dUOMv3XpKRRn+LQnrUEQ==
   dependencies:
-    uuid "8.3.1"
+    uuid "^8.3.2"
 
 co@^4.6.0:
   version "4.6.0"
@@ -3834,11 +3834,6 @@ util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
-
-uuid@8.3.1:
-  version "8.3.1"
-  resolved "https://registry.npmjs.org/uuid/-/uuid-8.3.1.tgz#2ba2e6ca000da60fce5a196954ab241131e05a31"
-  integrity sha512-FOmRr+FmWEIG8uhZv6C2bTgEVXsHk08kE7mPlrBbEe+c3r9pjceVPgupIfNIhc4yx55H69OXANrUaSuu9eInKg==
 
 uuid@^8.3.2:
   version "8.3.2"
