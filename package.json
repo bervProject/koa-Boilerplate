@@ -9,7 +9,7 @@
     "cls-hooked": "^4.2.2",
     "cls-rtracer": "^2.6.2",
     "koa": "^2.14.1",
-    "koa-helmet": "^6.1.0",
+    "koa-helmet": "^7.0.2",
     "koa-log4": "^2.3.2",
     "koa-logger": "^3.2.1",
     "koa-mount": "^4.0.0",
