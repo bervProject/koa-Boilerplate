@@ -29,7 +29,7 @@
     "@types/koa-response-time": "^2.1.2",
     "@types/koa-static": "^4.0.2",
     "@types/node": "^20.2.5",
-    "@types/validator": "^13.7.15",
+    "@types/validator": "^13.7.17",
     "jest": "^27.5.1",
     "nodemon": "^2.0.22",
     "prettier": "^2.8.8",
