@@ -1214,12 +1214,12 @@ cls-hooked@^4.2.2:
     emitter-listener "^1.0.1"
     semver "^5.4.1"
 
-cls-rtracer@^2.6.2:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/cls-rtracer/-/cls-rtracer-2.6.2.tgz#249e53051a2356af8d80fd649d22ab7a8eafc339"
-  integrity sha512-9TYlTXQkjaytD2oe+WCEAXArgqlrHzvVW5WnwpUgenuY8D3rMfJVgsCogY77YHM9R3dUOMv3XpKRRn+LQnrUEQ==
+cls-rtracer@^2.6.3:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/cls-rtracer/-/cls-rtracer-2.6.3.tgz#316b39718b82b159b3c6021f6d043c7ae899a93e"
+  integrity sha512-O7M/m2M/KfT9v+q7ka9nmsadS67ce9P8+1Zgm6VFamK56oFd1iCoJ9m8hYKUQpK4+RofyaexxHJlOBkxqCDs3Q==
   dependencies:
-    uuid "^8.3.2"
+    uuid "^9.0.0"
 
 co@^4.6.0:
   version "4.6.0"
@@ -3861,6 +3861,11 @@ uuid@^8.3.2:
   version "8.3.2"
   resolved "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+
+uuid@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.0.tgz#592f550650024a38ceb0c562f2f6aa435761efb5"
+  integrity sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==
 
 v8-compile-cache-lib@^3.0.1:
   version "3.0.1"
