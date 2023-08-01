@@ -32,7 +32,7 @@
     "@types/validator": "^13.7.17",
     "jest": "^27.5.1",
     "nodemon": "^3.0.1",
-    "prettier": "^2.8.8",
+    "prettier": "^3.0.0",
     "sequelize-cli": "^6.6.1",
     "supertest": "^6.3.3",
     "ts-jest": "^27.1.4",
