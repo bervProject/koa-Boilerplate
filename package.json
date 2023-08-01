@@ -31,7 +31,7 @@
     "@types/node": "^20.3.3",
     "@types/validator": "^13.7.17",
     "jest": "^27.5.1",
-    "nodemon": "^2.0.22",
+    "nodemon": "^3.0.1",
     "prettier": "^2.8.8",
     "sequelize-cli": "^6.6.1",
     "supertest": "^6.3.3",
