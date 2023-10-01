@@ -732,10 +732,10 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-response-time@^2.1.2":
-  version "2.1.2"
-  resolved "https://registry.npmjs.org/@types/koa-response-time/-/koa-response-time-2.1.2.tgz#b33f79c0a07b36516860ee49dda35e77ab7afd26"
-  integrity sha512-78xttHKjeHlNEQslMpl3mzwLhkTJUu/ocF+Sl8AyV0kstUs15H9O7Jq/i/jc+HR5uNVLqbkaH57lYoyIzUSOCg==
+"@types/koa-response-time@^2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@types/koa-response-time/-/koa-response-time-2.1.3.tgz#19707e5e579a6a1e5dd1c4d37a9c5cf3ecb7f1fd"
+  integrity sha512-NNek/5BgtEQdPPAscM/Yx5TPN74Trm4QsW0qWMYZ5TMnBYkW+dLwWoKzG0Bg5rNTvEsurkBo6EMxH+do2cLc2Q==
   dependencies:
     "@types/koa" "*"
 
