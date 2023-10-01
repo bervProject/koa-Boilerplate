@@ -702,10 +702,10 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-helmet@^6.0.4":
-  version "6.0.4"
-  resolved "https://registry.npmjs.org/@types/koa-helmet/-/koa-helmet-6.0.4.tgz#d908fff8fe25e1d50765f107c1fcd9b89e8a54e3"
-  integrity sha512-cSmbgKkUauVqQWPFKXEsJTcuLfkxJggXlbgeiqIeZwTz3aQpyJktrWjhOkpD7Iq5Lcq1G9TTKlj0pFZWIg6EbQ==
+"@types/koa-helmet@^6.0.5":
+  version "6.0.5"
+  resolved "https://registry.yarnpkg.com/@types/koa-helmet/-/koa-helmet-6.0.5.tgz#6a313b3c52a60d586cbc42d41bbb89c52400fcfb"
+  integrity sha512-jBwRM2R/rLIEbgTU2EhKFwDUOj2XEhSBlhm4QbO4sA3ZicutKNtXwic0snguKe+nyZMIdqy2V85ELRrbEqi3xg==
   dependencies:
     "@types/koa" "*"
     helmet "^4.0.0"
