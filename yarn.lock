@@ -798,12 +798,13 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-helmet@^6.0.5":
-  version "6.0.5"
-  resolved "https://registry.yarnpkg.com/@types/koa-helmet/-/koa-helmet-6.0.5.tgz#6a313b3c52a60d586cbc42d41bbb89c52400fcfb"
-  integrity sha512-jBwRM2R/rLIEbgTU2EhKFwDUOj2XEhSBlhm4QbO4sA3ZicutKNtXwic0snguKe+nyZMIdqy2V85ELRrbEqi3xg==
+"@types/koa-helmet@^6.0.7":
+  version "6.0.7"
+  resolved "https://registry.yarnpkg.com/@types/koa-helmet/-/koa-helmet-6.0.7.tgz#088c8a4f26e3ac90751c8ed5eaebf63f1aea76f4"
+  integrity sha512-AIb76iwKJkwCDa+0TN+UijOPSG06r/j31PVbD4npi+6F+MmEkzLg3WHHLmB1y6znPx0K7b6WQv1R0ovwHvBIPw==
   dependencies:
     "@types/koa" "*"
+    "@types/node" "*"
     helmet "^4.0.0"
 
 "@types/koa-log4@^2.3.4":
