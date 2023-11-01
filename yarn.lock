@@ -829,10 +829,10 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-response-time@^2.1.3":
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/@types/koa-response-time/-/koa-response-time-2.1.3.tgz#19707e5e579a6a1e5dd1c4d37a9c5cf3ecb7f1fd"
-  integrity sha512-NNek/5BgtEQdPPAscM/Yx5TPN74Trm4QsW0qWMYZ5TMnBYkW+dLwWoKzG0Bg5rNTvEsurkBo6EMxH+do2cLc2Q==
+"@types/koa-response-time@^2.1.4":
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/@types/koa-response-time/-/koa-response-time-2.1.4.tgz#5d020964e05920d2922d5e2732a3c8b15974cc91"
+  integrity sha512-RoncLAtfaED+21Tn/nOocn/HbrTLmgHY6bURh7KB1yi2CIkNAieSazPuSLKrlxYSESl54NMjWvQOuZrYIQ6w3Q==
   dependencies:
     "@types/koa" "*"
 
