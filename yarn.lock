@@ -798,10 +798,10 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-helmet@^6.0.7":
-  version "6.0.7"
-  resolved "https://registry.yarnpkg.com/@types/koa-helmet/-/koa-helmet-6.0.7.tgz#088c8a4f26e3ac90751c8ed5eaebf63f1aea76f4"
-  integrity sha512-AIb76iwKJkwCDa+0TN+UijOPSG06r/j31PVbD4npi+6F+MmEkzLg3WHHLmB1y6znPx0K7b6WQv1R0ovwHvBIPw==
+"@types/koa-helmet@^6.0.8":
+  version "6.0.8"
+  resolved "https://registry.yarnpkg.com/@types/koa-helmet/-/koa-helmet-6.0.8.tgz#b4e25227857ffddf0f8c22f1a4765bb4ddc475de"
+  integrity sha512-tQ/q5alcrF6vOx44m1deVTeoL1DHreHOdthPaCxZhUSnap2YO+/sVNDq9BfikWbAREx40XLGjrd4fRP5Vk//GQ==
   dependencies:
     "@types/koa" "*"
     "@types/node" "*"
