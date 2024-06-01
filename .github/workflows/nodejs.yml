@@ -46,7 +46,7 @@ jobs:
         env:
           CI: true
       - uses: codecov/codecov-action@v4.4.1
-        if: ${{ matrix.node-version == '18.x' }}
+        if: ${{ matrix.node-version == '20.x' }}
         name: Upload Coverage
   docker-test:
     runs-on: ubuntu-22.04
