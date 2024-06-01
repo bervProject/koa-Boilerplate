@@ -30,7 +30,7 @@ jobs:
           --health-retries 5
     strategy:
       matrix:
-        node-version: [18.x, 20.x]
+        node-version: [20.x, 22.x]
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
@@ -49,7 +49,7 @@ jobs:
         if: ${{ matrix.node-version == '18.x' }}
         name: Upload Coverage
   docker-test:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     if: github.event_name == 'pull_request'
     needs: build
     steps:
