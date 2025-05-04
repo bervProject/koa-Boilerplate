@@ -9,6 +9,10 @@ updates:
     timezone: Asia/Jakarta
   open-pull-requests-limit: 100
   groups:
+    production-dependencies:
+        dependency-type: "production"
+    development-dependencies:
+        dependency-type: "development"
     koa:
       patterns:
         - "koa*"
