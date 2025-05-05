@@ -16,6 +16,7 @@ updates:
     koa:
       patterns:
         - "koa*"
+        - "@types/koa*"
  
 - package-ecosystem: github-actions
   directory: "/"
