@@ -10,7 +10,7 @@ env:
   IMAGE_NAME: koa-boilerplate
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     services:
       # Label used to access the service container
       postgres:
@@ -30,7 +30,7 @@ jobs:
           --health-retries 5
     strategy:
       matrix:
-        node-version: [20.x, 22.x]
+        node-version: [22.x, 24.x]
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
@@ -46,13 +46,13 @@ jobs:
         env:
           CI: true
       - uses: codecov/codecov-action@v5.4.3
-        if: ${{ matrix.node-version == '20.x' }}
+        if: ${{ matrix.node-version == '22.x' }}
         name: Upload Coverage
         with:
           token: ${{ secrets.CODECOV_TOKEN }} # required
 
   docker-test:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     if: github.event_name == 'pull_request'
     needs: build
     steps:
@@ -62,7 +62,7 @@ jobs:
   docker-push:
     # Ensure test job passes before pushing image.
     needs: build
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     if: github.event_name == 'push'
     steps:
       - uses: actions/checkout@v4
