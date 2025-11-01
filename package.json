@@ -9,7 +9,7 @@
     "cls-hooked": "^4.2.2",
     "cls-rtracer": "^2.6.3",
     "helmet": "^8.1.0",
-    "koa": "^3.0.3",
+    "koa": "^3.1.1",
     "koa-helmet": "^8.0.1",
     "koa-log4": "^2.3.2",
     "koa-logger": "^4.0.0",
@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
-    "@types/koa": "^3.0.0",
+    "@types/koa": "^3.0.1",
     "@types/koa-helmet": "^6.1.0",
     "@types/koa-log4": "^2.3.6",
     "@types/koa-logger": "^3.1.5",
